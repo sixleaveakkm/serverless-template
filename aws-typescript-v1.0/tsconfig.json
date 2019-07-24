@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017"],
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "outDir": "lib",
+    "baseUrl": ".",
+    "typeRoots": [
+      "./node_modules/@types",
+      "@types"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "src/**/*.ts"
+  ]
+}
